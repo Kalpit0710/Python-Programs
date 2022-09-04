@@ -1,0 +1,5 @@
+myfile=open(r'C:\ABC.txt',"r")
+str=myfile.read()
+size=len(str)
+print("Size of the given file ABC.txt is")
+print(size,"bytes")
